@@ -1,5 +1,5 @@
 {% set name = "univi" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f49634d0e4a76b73464031048950e80a281434e8a41610003d1d1da2186f0c34
+  sha256: a51ffc4a2192b948e03250a4c8ea593d5a92746ef677812e6c738288d246afdc
 
 build:
   entry_points:
