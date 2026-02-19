@@ -27,3 +27,4 @@
 /output
 # Pixi's configuration
 .pixi
+.DS_Store
