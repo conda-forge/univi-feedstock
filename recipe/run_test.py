@@ -9,7 +9,7 @@ from univi import (ClassHeadConfig, ModalityConfig, UniVIConfig, UniVIMultiModal
                    predict_feature_perturbation, make_loader, stack_embeddings,
                    load_scnmt_gastrulation_genebody_triplet)
 
-assert univi.__version__ == "1.0.0"
+assert univi.__version__ == "1.1.0"
 torch.set_num_threads(1)
 model = UniVIMultiModalVAE(UniVIConfig(
     latent_dim=3, encoder_batchnorm=False, decoder_batchnorm=True,

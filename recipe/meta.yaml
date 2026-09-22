@@ -1,5 +1,5 @@
 {% set name = "univi" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f5dfb6d29d41626f0d9b871793042a4e6bed83de2309f2a7036b5078952e0252
+  sha256: 89081e785c5fdbf13f2efdcd69bf9505793c6158b6e029cfddf859256997ec3a
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - univi = univi.cli:main
